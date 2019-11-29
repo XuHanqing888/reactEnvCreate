@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import {PageContainer} from "common/styled"
 
 export default class Cart extends Component {
     render() {
         return (
-            <div>
+            <PageContainer>
                 Cart
-            </div>
+            </PageContainer>
         )
     }
 }

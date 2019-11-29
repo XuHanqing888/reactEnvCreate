@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { TarBarContainer } from "./styled";
 import { TabBarRoute } from "router";
 import { withRouter } from "react-router-dom";
+
+@withRouter
 class TabBar extends Component {
   render() {
     let { path } = this.props;
@@ -27,4 +29,4 @@ class TabBar extends Component {
     this.props.history.push(path);
   }
 }
-export default withRouter(TabBar);
+export default TabBar;

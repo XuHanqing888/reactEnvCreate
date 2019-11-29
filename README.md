@@ -31,6 +31,7 @@
 - react-scripts 
 - @babel/plugin-syntax-jsx
 - @babel/helper-create-regexp-features-plugin
+- 详情看alley bokeyuan
 
 `yarn add @babel/plugin-proposal-decorators react-scripts @babel/plugin-syntax-jsx @babel/helper-create-regexp-features-plugin --dev`
 
